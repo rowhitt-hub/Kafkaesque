@@ -135,7 +135,7 @@ st.markdown(
 # --------------------------------------------------
 
 st.markdown(
-    '<div class="title">Kafka Classifier</div>',
+    '<div class="title">Kafkaesque</div>',
     unsafe_allow_html=True
 )
 
@@ -197,8 +197,7 @@ if st.button("Analyze Text", use_container_width=True):
             )
 
             st.success(
-                "This passage shows characteristics associated "
-                "with the Kafkaesque examples in the training data."
+                "This sentence shows kafkaesque characteristics."
             )
 
         else:
@@ -208,8 +207,7 @@ if st.button("Analyze Text", use_container_width=True):
             )
 
             st.info(
-                "This passage is closer to the regular sentences "
-                "in the training data."
+                "This is a regular sentence."
             )
 
         st.write("")
