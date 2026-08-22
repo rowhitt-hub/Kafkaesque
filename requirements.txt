@@ -1,7 +1,3 @@
-joblib
-re
-pathlib
-scikit-learn
 streamlit
-sys
-subprocess
+scikit-learn
+joblib
